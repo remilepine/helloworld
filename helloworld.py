@@ -1,25 +1,34 @@
-# singes = ['pierre', 'marie']
-#
-# for singe in singes:
-#     if singe == 'pierre':
-#         print('banane jaune')
-#     else:
-#         print('banane verte')
+print("hello world !!")
 
+s = "string"
+i = 10
+f = 1.25
 
-class singe:
-    def __init__(self,prenom):
-        self.prenom = prenom
+print(s)
+print(i)
+print(f)
 
-    def returnBanane(self):
-        if self.prenom == 'pierre':
-            banane = 'banane jaune'
-        else:
-            banane = 'banane verte'
-        return banane
+so = i + 3
+m = i+ f
 
-singes = ['pierre', 'marie']
+print(so)
+print(m)
 
-for unSinge in singes:
-    leSinge = singe(unSinge)
-    print(leSinge.returnBanane())
+i = 13
+
+if i == 12:
+    print("i egal a 12")
+else:
+    print("i n'est pas egal a 12")
+
+import random
+import math
+
+x = random.random()
+y = random.random()
+
+dist = math.sqrt(x * x + y * y)
+print(dist)
+
+for i in range(1,10):
+    print(i)
