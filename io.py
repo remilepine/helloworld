@@ -34,13 +34,34 @@
 # returnIndice(5)
 # returnIndice(4)
 
-def isPalindrome(mot):
-    t = list(mot)
-    str1 = t[::-1]
-    str1 = ''.join(str1)
-    if mot == str1:
-        print(mot," est un palindrome")
-    else:
-        print(mot, "n'est pas un palindrome")
+# def isPalindrome(mot):
+#     t = list(mot)
+#     str1 = t[::-1]
+#     str1 = ''.join(str1)
+#     if mot == str1:
+#         print mot," est un palindrome"
+#     else:
+#         print mot, "n'est pas un palindrome"
+#
+# isPalindrome('kayak')
+# isPalindrome('radar')
+# isPalindrome('vittel')
 
-isPalindrome('kayak')
+# def returnNbPremier(var):
+#     for i in range(2,var-1):
+#         if var % i == 0:
+#             return False
+#     return True
+#
+# returnNbPremier(100)
+
+# def leplusgrandNombre():
+#     max = 0;
+#     for i in range(0, 10):
+#         chiffre = raw_input("Entrez un chiffre : ")
+#         if (int(chiffre) > int(max)):
+#             max = int(chiffre)
+#     print("Le plus grand chiffre que vous avez entre est " + str(max))
+#
+# leplusgrandNombre()
+
