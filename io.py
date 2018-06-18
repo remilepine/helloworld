@@ -21,15 +21,26 @@
 # inArray(3)
 # inArray(6)
 
-def returnIndice(var):
-    T = [3, 5, 0, 4, 4, 7]
-    r = []
-    i = 0
-    for v in T:
-        if v == var:
-            r.append(i)
-        i = i + 1
-    print(r)
+# def returnIndice(var):
+#     T = [3, 5, 0, 4, 4, 7]
+#     r = []
+#     i = 0
+#     for v in T:
+#         if v == var:
+#             r.append(i)
+#         i = i + 1
+#     print(r)
+#
+# returnIndice(5)
+# returnIndice(4)
 
-returnIndice(5)
-returnIndice(4)
+def isPalindrome(mot):
+    t = list(mot)
+    str1 = t[::-1]
+    str1 = ''.join(str1)
+    if mot == str1:
+        print(mot," est un palindrome")
+    else:
+        print(mot, "n'est pas un palindrome")
+
+isPalindrome('kayak')
